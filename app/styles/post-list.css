@@ -1,0 +1,25 @@
+.post-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.post-list__item:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.post-list__item-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.post-list__item-link-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.post-list__item-link-date {
+  width: max-content;
+  font-size: 0.875rem;
+}

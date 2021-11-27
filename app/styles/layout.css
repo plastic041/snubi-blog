@@ -1,0 +1,68 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 65ch;
+  padding: 0;
+  margin: 0 auto;
+  font-family: sans-serif;
+  line-height: 1.5;
+  overflow-y: scroll;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  gap: 0.5rem;
+}
+
+figcaption {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+ol,
+ul {
+  padding-left: 1.25rem;
+}
+
+/* End CSS Reset */
+
+.remix-app {
+  padding: 1rem;
+}
+
+.remix-app__header {
+  margin-bottom: 2rem;
+}
+
+.remix-app__header-home-link {
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.remix-app__footer {
+  width: 25%;
+  border-top: 3px double var(--border);
+  margin: 4rem auto 0;
+  margin-top: 2rem;
+}

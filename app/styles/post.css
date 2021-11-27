@@ -1,0 +1,27 @@
+.post {
+  display: flex;
+  flex-direction: column;
+}
+
+.post__info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.post__info-title {
+  margin-top: 0;
+}
+
+.post__info-date {
+  width: max-content;
+  font-size: 0.875rem;
+}
+
+.post__body > :first-child {
+  margin-top: 0;
+}
+
+.post__body > :last-child {
+  margin-bottom: 0;
+}
